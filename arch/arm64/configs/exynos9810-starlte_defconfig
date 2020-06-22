@@ -5129,7 +5129,7 @@ CONFIG_GATOR=y
 #
 # MPSD System Intelligence kernel module
 #
-CONFIG_MPSD=y
+# CONFIG_MPSD is not set
 # CONFIG_MPSD_DEBUG is not set
 # CONFIG_TZIC is not set
 
