@@ -118,3 +118,7 @@ all.config
 
 # fetched Android config fragments
 kernel/configs/android-*.cfg
+
+# __pycache__
+scripts/crypto/__pycache__/
+scripts/fmp/__pycache__/
