@@ -8344,7 +8344,14 @@
 		clock-names = "gate";
 		iommus = <0x10b>;
 		dma-coherent;
-		mscl_qos_table = <0x1b5fd0 0x825f0 0x20b41c 0x14a140 0x61a80 0x189228 0xf78f0 0x61a80 0x163f50 0xce4c8 0x52080 0x9e340 0xa50a0 0x412f8 0x59a60>;
+		mscl_qos_table = <
+				1794000 534000 2143260
+				1352000 400000 1610280
+				1014000 400000 1458000
+				 845000 336000  648000
+				 676000 267000  367200
+				 421000 107000  134000
+				>;
 		samsung,power-domain = <0x14>;
 		linux,phandle = <0x10a>;
 		phandle = <0x10a>;
